@@ -16,7 +16,8 @@ deploy:
   name: docker
   env: Docker-env-1
   bucket_name: elasticbeanstalk-eu-central-1-285767009009
+  skip_cleanup: true
   on:
     branch: main
-  access_key_id: $AWS_ACCESS_KEY
-  secret_access_key: $AWS_SECRET_KEY
+  access_key_id: $AWS_Access_Key
+  secret_access_key: $AWS_Secret_Key
