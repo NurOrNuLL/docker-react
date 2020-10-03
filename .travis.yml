@@ -12,10 +12,10 @@ script:
 
 deploy:
   provider: elasticbeanstalk
-  region: "eu-central-1"
-  name: "docker"
-  env: "Docker-env-1"
-  bucket_name: "elasticbeanstalk-eu-central-1-285767009009"
+  region: eu-central-1
+  name: docker
+  env: Docker-env-1
+  bucket_name: elasticbeanstalk-eu-central-1-285767009009
   on:
     branch: main
   access_key_id: $AWS_ACCESS_KEY
