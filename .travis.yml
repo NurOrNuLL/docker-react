@@ -1,3 +1,4 @@
+language: generic
 sudo: required
 
 services:
@@ -15,6 +16,7 @@ deploy:
   name: react-app
   env: ReactApp-env
   bucket_name: elasticbeanstalk-eu-central-1-285767009009
+  bucket_path: docker-react
   skip_cleanup: true
   on:
     branch: main
