@@ -13,8 +13,8 @@ script:
 deploy:
   provider: elasticbeanstalk
   region: eu-central-1
-  name: react-app
-  env: ReactApp-env
+  name: docker-react
+  env: DockerReact-env
   bucket_name: elasticbeanstalk-eu-central-1-285767009009
   bucket_path: docker-react
   skip_cleanup: true
